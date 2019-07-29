@@ -1,5 +1,6 @@
 require_relative './lib/meal.rb'
 require_relative './lib/waiter.rb'
+
 class Customer
   attr_accessor :name, :age
 
@@ -57,4 +58,3 @@ sam = Customer.new("Sam", 27)
   sam.new_meal(alex, 20, 3) # A Customer creates a Meal, passing in a Waiter instance
   pat.new_meal(sam, 30, 5) # A Waiter creates a Meal, passing in a Customer instance
   terrance = Customer.new("Terrance", 27)
-  
