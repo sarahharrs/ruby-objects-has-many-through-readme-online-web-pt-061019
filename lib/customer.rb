@@ -57,10 +57,4 @@ sam = Customer.new("Sam", 27)
   sam.new_meal(alex, 20, 3) # A Customer creates a Meal, passing in a Waiter instance
   pat.new_meal(sam, 30, 5) # A Waiter creates a Meal, passing in a Customer instance
   terrance = Customer.new("Terrance", 27)
-  jason = Waiter.new("Jason", 4)
-  andrew = Waiter.new("Andrew", 7)
-  yomi = Waiter.new("Yomi", 10)
-
-  terrance.new_meal(jason, 50, 6)
-  terrance.new_meal(andrew, 60, 8)
-  terrance.new_meal(yomi, 30, 4)
+  
